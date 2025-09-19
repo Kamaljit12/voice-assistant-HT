@@ -1,0 +1,25 @@
+# Core
+boto3==1.35.39          # AWS SDK for Python
+botocore==1.35.39
+python-dotenv==1.0.1    # for environment variables
+
+# Speech recognition
+speechrecognition==3.10.4
+pyaudio==0.2.14         # Microphone input (Windows/Linux)
+webrtcvad==2.0.10       # Voice Activity Detection
+
+# Text-to-Speech fallback (non-Windows if needed)
+gTTS==2.5.3
+
+# LLM API (Groq / OpenAI etc.)
+groq
+
+# Async and networking
+websockets==12.0
+aiohttp==3.10.5
+
+# Utility
+numpy==1.26.4
+simpleaudio==1.0.4
+sounddevice==0.5.2
+amazon_transcribe==0.6.4
