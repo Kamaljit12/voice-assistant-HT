@@ -16,7 +16,7 @@ groq
 
 # Async and networking
 websockets==12.0
-aiohttp==3.10.5
+aiohttp==3.13.3
 
 # Utility
 numpy==1.26.4
